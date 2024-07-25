@@ -118,6 +118,7 @@ nav a {
   text-transform: uppercase;
 }
 .goal_text h1 {
+  width: 491px;
   color: rgb(69, 82, 91);
   font-size: 48px;
   font-weight: 400;
@@ -161,4 +162,82 @@ nav a {
   letter-spacing: 2px;
   text-align: left;
   text-transform: uppercase;
+}
+
+#listings {
+  padding: 99px;
+}
+.listings_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.listings_text h6 {
+  color: rgb(255, 138, 99);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.listings_text h2 {
+  margin-bottom: 20px;
+  color: rgb(69, 82, 91);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+  text-align: center;
+}
+.listings_text p {
+  width: 561px;
+  color: rgb(111, 114, 120);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: center;
+}
+.listings_box {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+}
+
+.listings_blocks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.listings_boxes {
+  padding: 30px 21px;
+  width: 300px;
+  height: 167px;
+  box-sizing: border-box;
+  border: 1px solid rgba(202, 204, 209, 0.2);
+  border-radius: 10px;
+  background: #fff;
+}
+.listings_boxes:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  background: rgb(250, 250, 252);
+}
+.listings_boxes h5 {
+  color: rgb(69, 82, 91);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.listings_boxes h6 {
+  width: 196px;
+  color: rgb(111, 114, 120);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
 }
