@@ -241,3 +241,108 @@ nav a {
   line-height: 19.6px;
   text-align: left;
 }
+#people img {
+  background-size: cover;
+  background-position: center;
+}
+
+.people {
+  display: flex;
+}
+
+.people_text {
+  padding: 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.people_text h5 {
+  color: rgb(255, 138, 99);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.people_text h1 {
+  margin-bottom: 20px;
+  width: 309px;
+  color: rgb(69, 82, 91);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+  text-align: left;
+}
+.people_text p {
+  width: 368px;
+  color: rgb(111, 114, 120);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+}
+.people_text h6 {
+  color: rgb(69, 82, 91);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+.people_span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.people_span span {
+  color: rgb(69, 82, 91);
+  margin-top: 4px;
+}
+.people_blocks {
+  display: flex;
+  gap: 100px;
+}
+.our_people {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.our_people2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.people_ava {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.people_ava:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  background: rgb(250, 250, 252);
+}
+.people_ava_text {
+  display: flex;
+  flex-direction: column;
+}
+.people_ava_text h5 {
+  color: rgb(69, 82, 91);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+}
+.people_ava_text h6 {
+  color: rgb(111, 114, 120);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.8px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase;
+}
