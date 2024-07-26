@@ -431,3 +431,57 @@ nav a {
 .room_end span {
   color: rgb(69, 82, 91);
 }
+
+#footer {
+  padding: 120px;
+  background: rgb(69, 82, 91);
+}
+
+.footer_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.footer_text h5 {
+  color: rgb(250, 250, 252);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.footer_text h1 {
+  color: rgb(255, 255, 255);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+  text-align: center;
+}
+.footer_text p {
+  width: 574px;
+  color: rgb(250, 250, 252);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: center;
+}
+.footer_btns {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.footer_btns button {
+  width: 102px;
+  height: 44px;
+  border-radius: 6px;
+  background: rgb(255, 255, 255);
+  color: rgb(69, 82, 91);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: center;
+  border: none;
+}
